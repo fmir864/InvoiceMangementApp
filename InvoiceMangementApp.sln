@@ -5,6 +5,12 @@ VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvoiceMangementApp.Api", "InvoiceMangementApp.Api\InvoiceMangementApp.Api.csproj", "{22B0F5E6-1358-4564-A85C-DDDDE70B8B55}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvoiceManagementApp.Domain", "InvoiceManagementApp.Domain\InvoiceManagementApp.Domain.csproj", "{D4982C04-D775-4E32-9194-EFE20E0F1A44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvoiceManagementApp.Application", "InvoiceManagementApp.Application\InvoiceManagementApp.Application.csproj", "{C42B337A-FE96-4BA3-8DBF-42070ECDEC93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvoiceManagementApp.Infrastructure", "InvoiceManagementApp.Infrastructure\InvoiceManagementApp.Infrastructure.csproj", "{F865461F-3C25-4175-AD15-C345EA8DB4C8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{22B0F5E6-1358-4564-A85C-DDDDE70B8B55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22B0F5E6-1358-4564-A85C-DDDDE70B8B55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22B0F5E6-1358-4564-A85C-DDDDE70B8B55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4982C04-D775-4E32-9194-EFE20E0F1A44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4982C04-D775-4E32-9194-EFE20E0F1A44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4982C04-D775-4E32-9194-EFE20E0F1A44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4982C04-D775-4E32-9194-EFE20E0F1A44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C42B337A-FE96-4BA3-8DBF-42070ECDEC93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C42B337A-FE96-4BA3-8DBF-42070ECDEC93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C42B337A-FE96-4BA3-8DBF-42070ECDEC93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C42B337A-FE96-4BA3-8DBF-42070ECDEC93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F865461F-3C25-4175-AD15-C345EA8DB4C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F865461F-3C25-4175-AD15-C345EA8DB4C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F865461F-3C25-4175-AD15-C345EA8DB4C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F865461F-3C25-4175-AD15-C345EA8DB4C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
