@@ -10,6 +10,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using InvoiceManagementApp.Infrastructure;
+using InvoiceMangementApp.Api.Services;
+using InvoiceManagementApp.Application.Common.Interfaces;
 
 namespace InvoiceMangementApp.Api
 {
@@ -26,6 +28,8 @@ namespace InvoiceMangementApp.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddInfrastructure(Configuration);
+
+            services.AddScoped<ICurrentUserService, CurrentUserService>();
 
             services.AddControllersWithViews();
             services.AddRazorPages();
