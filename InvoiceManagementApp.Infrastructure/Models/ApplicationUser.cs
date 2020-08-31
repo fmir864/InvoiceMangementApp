@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace InvoiceMangementApp.Api.Models
+namespace InvoiceMangementApp.Infrastructure.Models
 {
     public class ApplicationUser : IdentityUser
     {
