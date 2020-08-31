@@ -12,6 +12,7 @@ using Microsoft.Extensions.Hosting;
 using InvoiceManagementApp.Infrastructure;
 using InvoiceMangementApp.Api.Services;
 using InvoiceManagementApp.Application.Common.Interfaces;
+using InvoiceManagementApp.Application;
 
 namespace InvoiceMangementApp.Api
 {
@@ -29,6 +30,7 @@ namespace InvoiceMangementApp.Api
         {
             services.AddScoped<ICurrentUserService, CurrentUserService>();
 
+            services.AddApplication();
             services.AddInfrastructure(Configuration);            
 
             services.AddControllersWithViews();
